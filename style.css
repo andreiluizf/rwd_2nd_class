@@ -1,0 +1,77 @@
+#a{
+  width: 500px;
+  height: auto;
+  background-color: #FFFFFF;
+  border: solid 2px #505050;
+  border-radius: 15px;
+  font-family: arial, sans-serif;
+  text-align: justify;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 30px 20px 20px 30px; 
+  /* (Top) (Right) (Bottom) (Left) */
+  margin: auto;
+}
+#b{
+  width: auto;
+  height: auto;
+  background-color: #FFFFFF;
+  font-family: arial, sans-serif;
+  text-align: justify;
+  font-size: 13px;
+  color: #505050;
+  line-height: 1.5;
+  padding: 30px 20px 0px 30px; 
+  /* (Top) (Right) (Bottom) (Left) */
+  margin: auto;
+}
+#c{
+  width: auto;
+  height: auto;
+  background-color: #FFFFFF;
+  /*border-radius: 15px;*/
+  font-family: arial, sans-serif;
+  font-style: oblique;
+  text-align: right;
+  font-size: 18px;
+  color: #505050;
+  line-height: 1.5;
+  padding: 0px 20px 20px 30px; 
+  /* (Top) (Right) (Bottom) (Left) */
+  margin: auto;
+}
+#dbotao{
+  width: 553px;
+  height: auto;
+  background-color: #FFFFFF;
+  color: #505050;
+  padding: 10px 0px 0px 0px; 
+  margin: auto;
+}
+.botao {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Arial;
+   width: 120px;
+   font-size: 17px;
+   font-weight: 100;
+   padding: 27px;
+   background-color: #707070;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.botao:hover {
+   background: #1E62D0;
+   border: solid #337FED 0;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
